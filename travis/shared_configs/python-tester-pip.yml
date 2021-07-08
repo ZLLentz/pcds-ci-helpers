@@ -1,7 +1,7 @@
 jobs:
   include:
     - stage: build
-      name: "Python ${PRIMARY_PYTHON:=3.6} - PIP"
+      name: "Python - PIP"
       python: ${PRIMARY_PYTHON:=3.6}
       install:
         - pip install --upgrade pip
